@@ -18,7 +18,7 @@ The application defines the model of database on which it works using Sequelize 
 
 Inside the /config/config.js file you find the parametrized configuration to connect to the database.
 
-To initialize the databse you can launch the script initializer.js : npm run init:dev
+To initialize the databse you can launch the script initializer.js : <code> npm run init:dev </code>
 
 
 ### Start the application ###
@@ -27,9 +27,9 @@ You need to pass the NODE_ENV environment variable to establish which environmen
 
 There are 2 types of functionality that this application offers:
 
-1) Start node.js server exposing the API : npm run start:dev
+1) Start node.js server exposing the API : <code>npm run start:dev</code>
 
-2) Start a script (loader.js) to load massively the images stored into app\resources\static\assets\uploads : npm run load:dev
+2) Start a script (loader.js) to load massively the images stored into app\resources\static\assets\uploads : <code>npm run load:dev</code>
 
 
 ### Test the application ###
@@ -38,9 +38,9 @@ A test suite used to verify the endpoint functioning. All the API exposed by the
 
 For test purpose a dedicated environment have to be configured in config/config.js.
 
-1) Initialize the test database: npm run init:test
+1) Initialize the test database: <code>npm run init:test</code>
 
-2) Run the tests: npm test
+2) Run the tests: <code>npm test</code>
 
 
 
